@@ -58,7 +58,7 @@ jobs:
       - name: 🧪 Smoke test
         continue-on-error: true
         run: |
-          echo "⏳ Aguardando LoadBalancer estar pronto..."
+          echo "⏳ Aguardando LoadBalancer ficar pronto..."
           
           # Aguardar até 2 minutos para LoadBalancer ter hostname
           for i in {1..12}; do
